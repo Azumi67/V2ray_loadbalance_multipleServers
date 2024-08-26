@@ -910,7 +910,10 @@ wget "https://raw.githubusercontent.com/hawshemi/Linux-Optimizer/main/linux-opti
 **اسکریپت من**
 ----------------
 
-
+- اگر با اجرای اسکریپت های پایین مشکل دارید از دستور زیر استفاده نمایید
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Azumi67/FRP_Reverse_Loadbalance/main/frp.sh)"
+```
 
 ```
 apt install python3 -y && apt install wget -y && sudo apt install python3-pip &&  pip install colorama && pip install netifaces && apt install curl -y && python3 <(curl -Ls https://raw.githubusercontent.com/Azumi67/FRP_Reverse_Loadbalance/main/loadbalance.py --ipv4)
